@@ -2,7 +2,7 @@
 
 
 <p align="center">
-    <img src="http://pycolors.com/v2/webpack-starter.png" alt="Webpack Starter" width="320" height="320"/>
+    <img src="http://pycolors.com/v2/webpack-starter.png" alt="Webpack Starter" width="250" height="250"/>
 </p>
 
 
@@ -33,4 +33,3 @@ $ npm run build
 ###Requirements
 * node
 * npm
-

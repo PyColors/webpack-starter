@@ -1,10 +1,10 @@
 // shell in node
 require('shelljs/global')
 
-var webpack = require('webpack')
-var ora = require('ora')
-var conf = require('./webpack.prod.js')
-var spinner = ora('Loading...')
+const webpack = require('webpack')
+const ora = require('ora')
+const conf = require('./webpack.prod.js')
+const spinner = ora('Loading...')
 
 spinner.start()
 

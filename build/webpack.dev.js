@@ -1,5 +1,5 @@
-var config = require('./webpack.base')
-var webpack = require('webpack')
+const config = require('./webpack.base')
+const webpack = require('webpack')
 
 // add compiler HTML...
 // add file for entry

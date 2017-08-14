@@ -1,6 +1,6 @@
-var path = require('path');
+const path = require('path');
 // simple path
-var root = path.resolve(__dirname, '../');
+const root = path.resolve(__dirname, '../');
 
 module.exports = {
   entry: {
@@ -34,7 +34,7 @@ module.exports = {
         exclude: /(node_modules|bower_components)/,
         include: root
       },{
-        test: /\.(png|jpg|gif|svg|woff2?|eot|ttf)$/,
+        test: /\.(ico|jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2)(\?.*)?$/,
         loader: 'url',
         query: {
           limit: 10000,

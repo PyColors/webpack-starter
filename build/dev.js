@@ -1,15 +1,15 @@
 /*
 file for Dev
 */
-var webpack = require('webpack')
-var config = require('./webpack.dev.js')
-var chokidar = require('chokidar')
-var webpackDevServer = require('webpack-dev-server')
-var port = 8080;
+const webpack = require('webpack')
+const config = require('./webpack.dev.js')
+const chokidar = require('chokidar')
+const webpackDevServer = require('webpack-dev-server')
+const port = 8080;
 
 // add compiler
-var compiler = webpack(config);
-var hotMiddleWare = require('webpack-hot-middleware')(compiler)
+const compiler = webpack(config);
+const hotMiddleWare = require('webpack-hot-middleware')(compiler)
 
 // Listen all HTML files
 chokidar.watch('./*.html').on('all', function () {
@@ -17,7 +17,7 @@ chokidar.watch('./*.html').on('all', function () {
 })
 
 // get configuration by webpack
-var server = new webpackDevServer(compiler, {
+let server = new webpackDevServer(compiler, {
   hot: true,
   /**
   * Dev server for tests

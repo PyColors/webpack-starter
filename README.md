@@ -1,36 +1,50 @@
-# Webpack Starter
+# Webpack starter
 
+![N|Solid](http://ryanchristiani.com/wp-content/uploads/2016/07/webpack-logo.png)
 
-<p align="center">
-    <img src="http://pycolors.com/v2/webpack-starter.png" alt="Webpack Starter" width="320" height="320"/>
-</p>
+Webpack starter is a starter development and build workflow.
 
+### Tech
 
-## Installation
+Webpack starter uses a number of open source projects to work properly:
 
-Install all dependencies.
+* [Babel] transpiler
+* [Eslint]
+* [webpack-hot-middleware] hot reloading
 
-```
+### Installation
+
+Webpack starter requires [Node.js](https://nodejs.org/) v6+ to run.
+
+Install the dependencies and devDependencies.
+
+```sh
+$ git@github.com:PyColors/webpack-starter.git
+$ cd webpack-starter
 $ npm install
 ```
 
-## Development
+### Development
+Build files and start webserver with livereload.
 
-Builds the application and starts a webserver with livereload.
-
-```
+```sh
 $ npm run dev
 ```
 
-## Build
+### Build and minified
+Build and minified in the dist folder.
 
-Builds a minified in the dist folder.
-
-```
+```sh
 $ npm run build
 ```
+License
+----
 
-###Requirements
-* node
-* npm
+MIT
+**Free Software, Hell Yeah!**
 
+[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
+
+   [Eslint]: https://eslint.org/>
+   [babel]: <https://babeljs.io/>
+   [webpack-hot-middleware]: <https://github.com/glenjamin/webpack-hot-middleware>

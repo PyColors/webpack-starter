@@ -3,7 +3,7 @@ const webpack = require('webpack')
 
 // add compiler HTML...
 // add file for entry
-config.entry.app.unshift("./webpack/dev-client.js")
+config.entry.app.unshift("./build/dev-client.js")
 
 // Hot Module Replacement with node.js AP
 config.plugins = config.plugins.concat([

@@ -11,7 +11,10 @@ Webpack starter uses a number of open source projects to work properly:
 * [Babel] transpiler
 * [Eslint]
 * [webpack-hot-middleware] hot reloading
+* [webpack-dev-server]
 * [Chokidar]
+
+
 
 ### Installation
 
@@ -48,4 +51,5 @@ MIT
    [Eslint]: <https://eslint.org/>
    [babel]: <https://babeljs.io/>
    [webpack-hot-middleware]: <https://github.com/glenjamin/webpack-hot-middleware>
+   [webpack-dev-server]: <https://github.com/webpack/webpack-dev-server>
    [Chokidar]: <https://github.com/paulmillr/chokidar>

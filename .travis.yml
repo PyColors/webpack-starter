@@ -1,3 +1,15 @@
 language: node_js
+
+os: osx
+
 node_js:
- - "node"
+ "node"
+
+notifications:
+  email:
+    on_failure: change
+
+cache:
+  yarn: true
+  directories:
+    - node_modules
